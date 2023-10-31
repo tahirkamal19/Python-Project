@@ -14,7 +14,7 @@ def start_reading():
     page_number = page_entry.get()
 
     if not pdf_file:
-        status_label.config(text="Please select a PDF file.")
+        status_label.config(text="Please Select a PDF file.")
         return
 
     try:
